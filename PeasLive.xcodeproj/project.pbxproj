@@ -123,6 +123,7 @@
 				2B1C224A1E8A7AAC0074D289 /* AppDelegate.m */,
 				2B1C224F1E8A7AAC0074D289 /* Main.storyboard */,
 				2B1C22521E8A7AAC0074D289 /* Assets.xcassets */,
+				2BB698C21E8E521B0088589C /* New Group */,
 				2B1C22541E8A7AAC0074D289 /* LaunchScreen.storyboard */,
 				2B1C22571E8A7AAC0074D289 /* Info.plist */,
 				2B1C22461E8A7AAC0074D289 /* Supporting Files */,
@@ -259,6 +260,13 @@
 			children = (
 			);
 			path = Vendor;
+			sourceTree = "<group>";
+		};
+		2BB698C21E8E521B0088589C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 		56F6DAADEDA1DBC0E5B55768 /* Pods */ = {
