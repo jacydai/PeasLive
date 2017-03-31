@@ -14,6 +14,9 @@
 		2B1C22561E8A7AAC0074D289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1C22541E8A7AAC0074D289 /* LaunchScreen.storyboard */; };
 		2B1C22611E8A7AAC0074D289 /* PeasLiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C22601E8A7AAC0074D289 /* PeasLiveTests.m */; };
 		2B1C226C1E8A7AAC0074D289 /* PeasLiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C226B1E8A7AAC0074D289 /* PeasLiveUITests.m */; };
+		2BB3EF051E8E567C002B1BD2 /* DXSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3EF041E8E567C002B1BD2 /* DXSNavigationController.m */; };
+		2BB3EF081E8E5699002B1BD2 /* DXSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3EF071E8E5699002B1BD2 /* DXSBaseViewController.m */; };
+		2BB3EF0B1E8E56BF002B1BD2 /* DXSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3EF0A1E8E56BF002B1BD2 /* DXSTabBarController.m */; };
 		2BB698C11E8E4A1F0088589C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB698BF1E8E4A1F0088589C /* ViewController.m */; };
 		50E9430F8EDDEDECF726DD0F /* libPods-PeasLiveTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0DA1761B44E4394FBEC806 /* libPods-PeasLiveTests.a */; };
 		92D0D423AB4B0CBD1877629B /* libPods-PeasLive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BCCF33F68C10BCD9499F45 /* libPods-PeasLive.a */; };
@@ -54,6 +57,12 @@
 		2B1C22671E8A7AAC0074D289 /* PeasLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeasLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1C226B1E8A7AAC0074D289 /* PeasLiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeasLiveUITests.m; sourceTree = "<group>"; };
 		2B1C226D1E8A7AAC0074D289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB3EF031E8E567C002B1BD2 /* DXSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXSNavigationController.h; sourceTree = "<group>"; };
+		2BB3EF041E8E567C002B1BD2 /* DXSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXSNavigationController.m; sourceTree = "<group>"; };
+		2BB3EF061E8E5699002B1BD2 /* DXSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXSBaseViewController.h; sourceTree = "<group>"; };
+		2BB3EF071E8E5699002B1BD2 /* DXSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXSBaseViewController.m; sourceTree = "<group>"; };
+		2BB3EF091E8E56BF002B1BD2 /* DXSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXSTabBarController.h; sourceTree = "<group>"; };
+		2BB3EF0A1E8E56BF002B1BD2 /* DXSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXSTabBarController.m; sourceTree = "<group>"; };
 		2BB698BE1E8E4A1F0088589C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2BB698BF1E8E4A1F0088589C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2CFDE550472ED3B8C3D35AFE /* Pods-PeasLiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeasLiveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PeasLiveUITests/Pods-PeasLiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -230,6 +239,12 @@
 		2BB698BA1E8E4A1F0088589C /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				2BB3EF061E8E5699002B1BD2 /* DXSBaseViewController.h */,
+				2BB3EF071E8E5699002B1BD2 /* DXSBaseViewController.m */,
+				2BB3EF031E8E567C002B1BD2 /* DXSNavigationController.h */,
+				2BB3EF041E8E567C002B1BD2 /* DXSNavigationController.m */,
+				2BB3EF091E8E56BF002B1BD2 /* DXSTabBarController.h */,
+				2BB3EF0A1E8E56BF002B1BD2 /* DXSTabBarController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -560,8 +575,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B1C224B1E8A7AAC0074D289 /* AppDelegate.m in Sources */,
+				2BB3EF0B1E8E56BF002B1BD2 /* DXSTabBarController.m in Sources */,
+				2BB3EF081E8E5699002B1BD2 /* DXSBaseViewController.m in Sources */,
 				2BB698C11E8E4A1F0088589C /* ViewController.m in Sources */,
 				2B1C22481E8A7AAC0074D289 /* main.m in Sources */,
+				2BB3EF051E8E567C002B1BD2 /* DXSNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
