@@ -17,6 +17,11 @@
 		2BB3EF051E8E567C002B1BD2 /* DXSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3EF041E8E567C002B1BD2 /* DXSNavigationController.m */; };
 		2BB3EF081E8E5699002B1BD2 /* DXSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3EF071E8E5699002B1BD2 /* DXSBaseViewController.m */; };
 		2BB3EF0B1E8E56BF002B1BD2 /* DXSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3EF0A1E8E56BF002B1BD2 /* DXSTabBarController.m */; };
+		2BB3EF0E1E8E581C002B1BD2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3EF0D1E8E581C002B1BD2 /* HomeViewController.m */; };
+		2BB3EF121E8E583B002B1BD2 /* DXSProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3EF101E8E583B002B1BD2 /* DXSProfileViewController.m */; };
+		2BB3EF131E8E583B002B1BD2 /* DXSProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BB3EF111E8E583B002B1BD2 /* DXSProfileViewController.xib */; };
+		2BB3EF171E8E585C002B1BD2 /* DXSLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3EF151E8E585C002B1BD2 /* DXSLiveViewController.m */; };
+		2BB3EF181E8E585C002B1BD2 /* DXSLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BB3EF161E8E585C002B1BD2 /* DXSLiveViewController.xib */; };
 		2BB698C11E8E4A1F0088589C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB698BF1E8E4A1F0088589C /* ViewController.m */; };
 		50E9430F8EDDEDECF726DD0F /* libPods-PeasLiveTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0DA1761B44E4394FBEC806 /* libPods-PeasLiveTests.a */; };
 		92D0D423AB4B0CBD1877629B /* libPods-PeasLive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BCCF33F68C10BCD9499F45 /* libPods-PeasLive.a */; };
@@ -63,6 +68,14 @@
 		2BB3EF071E8E5699002B1BD2 /* DXSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXSBaseViewController.m; sourceTree = "<group>"; };
 		2BB3EF091E8E56BF002B1BD2 /* DXSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXSTabBarController.h; sourceTree = "<group>"; };
 		2BB3EF0A1E8E56BF002B1BD2 /* DXSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXSTabBarController.m; sourceTree = "<group>"; };
+		2BB3EF0C1E8E581C002B1BD2 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2BB3EF0D1E8E581C002B1BD2 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2BB3EF0F1E8E583B002B1BD2 /* DXSProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXSProfileViewController.h; sourceTree = "<group>"; };
+		2BB3EF101E8E583B002B1BD2 /* DXSProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXSProfileViewController.m; sourceTree = "<group>"; };
+		2BB3EF111E8E583B002B1BD2 /* DXSProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DXSProfileViewController.xib; sourceTree = "<group>"; };
+		2BB3EF141E8E585C002B1BD2 /* DXSLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXSLiveViewController.h; sourceTree = "<group>"; };
+		2BB3EF151E8E585C002B1BD2 /* DXSLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXSLiveViewController.m; sourceTree = "<group>"; };
+		2BB3EF161E8E585C002B1BD2 /* DXSLiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DXSLiveViewController.xib; sourceTree = "<group>"; };
 		2BB698BE1E8E4A1F0088589C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2BB698BF1E8E4A1F0088589C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2CFDE550472ED3B8C3D35AFE /* Pods-PeasLiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeasLiveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PeasLiveUITests/Pods-PeasLiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -252,6 +265,8 @@
 		2BB698BB1E8E4A1F0088589C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				2BB3EF0C1E8E581C002B1BD2 /* HomeViewController.h */,
+				2BB3EF0D1E8E581C002B1BD2 /* HomeViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -259,6 +274,9 @@
 		2BB698BC1E8E4A1F0088589C /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				2BB3EF141E8E585C002B1BD2 /* DXSLiveViewController.h */,
+				2BB3EF151E8E585C002B1BD2 /* DXSLiveViewController.m */,
+				2BB3EF161E8E585C002B1BD2 /* DXSLiveViewController.xib */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -266,6 +284,9 @@
 		2BB698BD1E8E4A1F0088589C /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				2BB3EF0F1E8E583B002B1BD2 /* DXSProfileViewController.h */,
+				2BB3EF101E8E583B002B1BD2 /* DXSProfileViewController.m */,
+				2BB3EF111E8E583B002B1BD2 /* DXSProfileViewController.xib */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -424,8 +445,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BB3EF131E8E583B002B1BD2 /* DXSProfileViewController.xib in Resources */,
 				2B1C22561E8A7AAC0074D289 /* LaunchScreen.storyboard in Resources */,
 				2B1C22531E8A7AAC0074D289 /* Assets.xcassets in Resources */,
+				2BB3EF181E8E585C002B1BD2 /* DXSLiveViewController.xib in Resources */,
 				2B1C22511E8A7AAC0074D289 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -575,10 +598,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B1C224B1E8A7AAC0074D289 /* AppDelegate.m in Sources */,
+				2BB3EF171E8E585C002B1BD2 /* DXSLiveViewController.m in Sources */,
 				2BB3EF0B1E8E56BF002B1BD2 /* DXSTabBarController.m in Sources */,
 				2BB3EF081E8E5699002B1BD2 /* DXSBaseViewController.m in Sources */,
 				2BB698C11E8E4A1F0088589C /* ViewController.m in Sources */,
+				2BB3EF121E8E583B002B1BD2 /* DXSProfileViewController.m in Sources */,
 				2B1C22481E8A7AAC0074D289 /* main.m in Sources */,
+				2BB3EF0E1E8E581C002B1BD2 /* HomeViewController.m in Sources */,
 				2BB3EF051E8E567C002B1BD2 /* DXSNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
