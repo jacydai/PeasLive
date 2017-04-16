@@ -14,6 +14,7 @@
 		2B1C22561E8A7AAC0074D289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1C22541E8A7AAC0074D289 /* LaunchScreen.storyboard */; };
 		2B1C22611E8A7AAC0074D289 /* PeasLiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C22601E8A7AAC0074D289 /* PeasLiveTests.m */; };
 		2B1C226C1E8A7AAC0074D289 /* PeasLiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C226B1E8A7AAC0074D289 /* PeasLiveUITests.m */; };
+		2B63EE781EA3152900D21185 /* NSObject+JADTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B63EE771EA3152900D21185 /* NSObject+JADTools.m */; };
 		2BB3EF051E8E567C002B1BD2 /* DXSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3EF041E8E567C002B1BD2 /* DXSNavigationController.m */; };
 		2BB3EF081E8E5699002B1BD2 /* DXSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3EF071E8E5699002B1BD2 /* DXSBaseViewController.m */; };
 		2BB3EF0B1E8E56BF002B1BD2 /* DXSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3EF0A1E8E56BF002B1BD2 /* DXSTabBarController.m */; };
@@ -62,6 +63,8 @@
 		2B1C22671E8A7AAC0074D289 /* PeasLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeasLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1C226B1E8A7AAC0074D289 /* PeasLiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeasLiveUITests.m; sourceTree = "<group>"; };
 		2B1C226D1E8A7AAC0074D289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B63EE761EA3152900D21185 /* NSObject+JADTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JADTools.h"; sourceTree = "<group>"; };
+		2B63EE771EA3152900D21185 /* NSObject+JADTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JADTools.m"; sourceTree = "<group>"; };
 		2BB3EF031E8E567C002B1BD2 /* DXSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXSNavigationController.h; sourceTree = "<group>"; };
 		2BB3EF041E8E567C002B1BD2 /* DXSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXSNavigationController.m; sourceTree = "<group>"; };
 		2BB3EF061E8E5699002B1BD2 /* DXSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXSBaseViewController.h; sourceTree = "<group>"; };
@@ -211,6 +214,8 @@
 		2BB698B51E8E4A1F0088589C /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				2B63EE761EA3152900D21185 /* NSObject+JADTools.h */,
+				2B63EE771EA3152900D21185 /* NSObject+JADTools.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -604,6 +609,7 @@
 				2BB698C11E8E4A1F0088589C /* ViewController.m in Sources */,
 				2BB3EF121E8E583B002B1BD2 /* DXSProfileViewController.m in Sources */,
 				2B1C22481E8A7AAC0074D289 /* main.m in Sources */,
+				2B63EE781EA3152900D21185 /* NSObject+JADTools.m in Sources */,
 				2BB3EF0E1E8E581C002B1BD2 /* HomeViewController.m in Sources */,
 				2BB3EF051E8E567C002B1BD2 /* DXSNavigationController.m in Sources */,
 			);
