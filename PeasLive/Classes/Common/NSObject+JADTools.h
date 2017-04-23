@@ -12,7 +12,7 @@
 @interface NSObject (JADTools)
 
 /**
- Get all subClasses
+ Get the parent Class‘s all subClasses
 
  @param parentClass parentClass，if parentClass is nil，subClasses return []
  @return subClasses

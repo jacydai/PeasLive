@@ -48,7 +48,7 @@
         return nil;
     }
     
-    // 使用 循环实现遍历
+    // Using while loop implement
     //    while (responder) {
     //        if ([responder isKindOfClass:[UIViewController class]]) {
     //            viewController = (UIViewController *)responder;
@@ -63,7 +63,7 @@
     //
     //        return viewController;
     
-    // 使用递归实现遍历
+    // Using Interation implement
     if ([responder isKindOfClass:[UIViewController class]]) {
         viewController = (UIViewController *)responder;
         return viewController;
