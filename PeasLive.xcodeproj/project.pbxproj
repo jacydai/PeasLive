@@ -148,7 +148,6 @@
 				2B1C224A1E8A7AAC0074D289 /* AppDelegate.m */,
 				2B1C224F1E8A7AAC0074D289 /* Main.storyboard */,
 				2B1C22521E8A7AAC0074D289 /* Assets.xcassets */,
-				2BB698C21E8E521B0088589C /* New Group */,
 				2B1C22541E8A7AAC0074D289 /* LaunchScreen.storyboard */,
 				2B1C22571E8A7AAC0074D289 /* Info.plist */,
 				2B1C22461E8A7AAC0074D289 /* Supporting Files */,
@@ -182,9 +181,17 @@
 			path = PeasLiveUITests;
 			sourceTree = "<group>";
 		};
+		2B63EE791EA8B10600D21185 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		2BB698B21E8E4A1F0088589C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2B63EE791EA8B10600D21185 /* Tool */,
 				2BB698B31E8E4A1F0088589C /* API */,
 				2BB698B41E8E4A1F0088589C /* Categories */,
 				2BB698B51E8E4A1F0088589C /* Common */,
@@ -303,13 +310,6 @@
 			path = Vendor;
 			sourceTree = "<group>";
 		};
-		2BB698C21E8E521B0088589C /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group";
-			sourceTree = "<group>";
-		};
 		56F6DAADEDA1DBC0E5B55768 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -403,6 +403,7 @@
 		2B1C223B1E8A7AAC0074D289 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DXS;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = NextStep.Inc;
 				TargetAttributes = {
