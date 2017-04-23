@@ -10,6 +10,7 @@ target 'PeasLive' do
   pod 'AFNetworking', '~> 3.1'
   pod 'SDWebImage', '~> 4.0'
   pod 'YYKit', '~> 1.0'
+  pod ‘Masonry’,’~> 1.0’
 
 
   target 'PeasLiveTests' do
